@@ -9,7 +9,7 @@ class Header extends Component {
       <div>
         <div>
           <div className="logoContainer">
-            <div className="logo">
+            <div className="logo-">
               <img className="img-fluid" src={logo} alt="logo" />
             </div>
           </div>
