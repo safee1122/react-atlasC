@@ -1,0 +1,40 @@
+/* detail section start */
+.detail {
+  background-color: var(--smc-main-green-color);
+}
+.detail p {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 182.19%;
+  text-align: center;
+  /* or 36px */
+  color: var(--smc-main-text-white-color);
+}
+.detail h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 44px;
+  color: var(--smc-main-text-white-color);
+  text-transform: uppercase;
+  text-align: center;
+}
+.detail img {
+  display: none;
+  position: absolute;
+  left: 800px;
+}
+@media screen and (min-width: 992px) {
+  .detail h1 {
+    text-align: left;
+  }
+  .detail p {
+    text-align: left;
+  }
+  .detail img {
+    display: block;
+  }
+}
+/* detail section end */

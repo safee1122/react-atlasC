@@ -1,38 +1,184 @@
-.App {
+/* Reset */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strong,
+sub,
+sup,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+figure,
+figcaption,
+footer,
+header,
+nav,
+output,
+section,
+time,
+mark,
+audio,
+video,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* inherits the browser's font properties: font-size 16px */
+  font: inherit;
+  /*  specifies the vertical alignment of an inline element */
+  vertical-align: baseline;
+  box-sizing: border-box;
+  /*  specifies the height of line boxes within the element. */
+  line-height: 1;
+  border-radius: 0;
+  /* no outline around anything */
+  outline: none;
+  /* inherit the color value of the parent */
+  color: inherit;
+}
+
+ol,
+ul {
+  /* no bullets in lists */
+  list-style: none;
+}
+
+a {
+  /* the color of the font for anchor tags is inherited */
+  color: inherit;
+  /* no underline */
+  text-decoration: none;
+}
+
+button {
+  /* turn the cursor into a pointing finger */
+  cursor: pointer;
+  background-color: transparent;
+}
+
+blockquote,
+q {
+  /* no quotes */
+  quotes: none;
+}
+
+table {
+  /* no spacing between cells*/
+  border-spacing: 0;
+  /*borders are collapsed - adjacent table cells share borders */
+  border-collapse: collapse;
+}
+/* General Styling */
+:root {
+  /*CONTRAST-COLORS*/
+  --smc-main-green-color: #112828;
+  --smc-main-golden-color: #f6e391;
+  --smc-main-dark-blue-color: #121524;
+  --smc-main-brown-color: #2e2e2e;
+  --smc-main-text-brown-color: #525252;
+  --smc-main-text-white-color: #ffffff;
+
+  /*==================================================*/
+  --smc-main-border-rad1: 10px;
+  --smc-main-border-rad2: 5px;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/Gill-Sans-Light.otf") format("otf");
+}
+@font-face {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Gill-Sans.otf") format("otf");
+}
+@font-face {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/Gill-Sans-Medium.otf") format("otf");
+}
+@font-face {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/Gill-Sans-Bold.otf") format("otf");
+}
+@font-face {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./fonts/Gill-Sans-Heavy.otf") format("otf");
+}
+
+body {
+  font-family: "Gill Sans";
+}
+
+/* Footer Styling */
+.footer {
+  background-color: var(--smc-main-green-color);
+}
+.footer img {
+  width: 184px;
+  height: 45px;
+}
+.footer .copy-right p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  color: var(--smc-main-text-brown-color);
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

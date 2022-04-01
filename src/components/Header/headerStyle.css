@@ -1,0 +1,19 @@
+/* Header Styling */
+.logoContainer {
+  background-color: var(--smc-main-green-color);
+  padding: 0;
+}
+.logoContainer .logo {
+  width: 329px;
+  height: 80px;
+  margin: auto;
+}
+.logoContainer img {
+  position: relative;
+  left: -15px;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  width: 100%;
+}
+/* Header Style End */

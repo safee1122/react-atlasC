@@ -1,0 +1,46 @@
+/* mission styling start */
+.mission {
+  height: 304px;
+  width: 100%;
+  background-color: var(--smc-main-brown-color);
+  background-image: url(./Place-holder-logo-graphics-01-p-500\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.mission h1 {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--smc-main-text-white-color);
+  text-transform: uppercase;
+  position: relative;
+  top: 45%;
+}
+@media screen and (min-width: 768px) {
+  .mission h1 {
+    font-size: 37px;
+    line-height: 44px;
+  }
+}
+.mission p {
+  position: relative;
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 36px */
+  text-align: center;
+  color: var(--smc-main-text-white-color);
+  top: 42%;
+}
+@media screen and (min-width: 768px) {
+  .mission p {
+    font-size: 20px;
+    line-height: 182%;
+  }
+}
+/* mission section end */

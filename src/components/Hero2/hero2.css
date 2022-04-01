@@ -1,0 +1,8 @@
+/* hero2  start */
+.hero-container2 {
+  background-color: var(--smc-main-dark-blue-color);
+  background-image: url(./photon-atlas\ 2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
